@@ -5230,11 +5230,12 @@ footer {
   .footer-col {
     flex: 50%; } }
 
-.payment .payment-col {
-  padding: 0 1.5rem; }
-
-.payment .payment-img {
-  margin: 1.4rem 0 2rem 0; }
+.payment {
+  padding-top: 8rem; }
+  .payment .payment-col {
+    padding: 0 1.5rem; }
+  .payment .payment-img {
+    margin: 1.4rem 0 2rem 0; }
 
 .payment-title {
   color: #01a2ed;
@@ -5258,6 +5259,7 @@ footer {
   margin: 1.4rem 0; }
 
 .order {
-  padding-bottom: 8rem; }
+  padding-bottom: 8rem;
+  padding-top: 8rem; }
   .order .order-img {
     margin: 6rem 0; }
