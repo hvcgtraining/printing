@@ -1,0 +1,56 @@
+.thebigofthing {
+  padding-bottom: 60px;
+  background-color: #f3f3f6; }
+  .thebigofthing h3 {
+    color: #44b9f0;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 3.2rem; }
+  .thebigofthing h4 {
+    font-weight: 2;
+    margin-bottom: 1.5rem;
+    color: #44b9f0; }
+  .thebigofthing ul {
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    font-size: 1.4rem; }
+  .thebigofthing a {
+    text-decoration: none;
+    color: #194e90; }
+    .thebigofthing a:hover {
+      color: #44b9f0;
+      text-decoration: underline; }
+  .thebigofthing .price {
+    color: #089b2b; }
+  .thebigofthing .new-price {
+    color: #de1982; }
+  .thebigofthing .old-price {
+    text-decoration: line-through;
+    color: #55595c; }
+  .thebigofthing .callout-text {
+    color: white;
+    font-size: 1.5rem; }
+  .thebigofthing button {
+    font-size: 1.6rem;
+    margin-top: 1.4rem;
+    background-color: #de1982;
+    border: none;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    border-radius: 1rem; }
+  .thebigofthing .callout {
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #244078;
+    padding-top: 36px;
+    padding-bottom: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem; }

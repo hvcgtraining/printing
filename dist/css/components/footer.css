@@ -1,0 +1,37 @@
+footer {
+  background: #01a2ed;
+  padding: 3rem 0;
+  color: #fff; }
+  footer ul {
+    list-style-type: none; }
+  footer .footer-col {
+    padding: 2rem 1.5rem; }
+    footer .footer-col .footer-col-title {
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin-bottom: 1.5rem;
+      white-space: nowrap; }
+    footer .footer-col .footer-link,
+    footer .footer-col .footer-text {
+      font-size: 1.3rem;
+      color: #fff;
+      text-decoration: none; }
+    footer .footer-col .footer-link:hover {
+      text-decoration: underline; }
+    footer .footer-col .footer-social {
+      display: block; }
+    footer .footer-col .twitter {
+      background: #1b95e0;
+      padding: 0 0.8rem;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      border-radius: 0.4rem; }
+      footer .footer-col .twitter:hover {
+        background: #106ba3;
+        text-decoration: none; }
+      footer .footer-col .twitter i {
+        margin-right: 1rem; }
+
+@media (max-width: 1000px) {
+  .footer-col {
+    flex: 50%; } }

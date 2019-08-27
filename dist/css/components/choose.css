@@ -1,0 +1,67 @@
+.pd-3 {
+  padding: 1.5rem; }
+
+.mg-b3 {
+  margin-bottom: 1.5rem; }
+
+.mg-y4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.parallax-choose {
+  background-image: url("../.././dist/assets/images/choose/bg-choose.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  padding: 8rem 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 1; }
+  .parallax-choose a {
+    text-decoration: none;
+    color: #194e90; }
+  .parallax-choose .title-choose {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #fff; }
+    .parallax-choose .title-choose h1 {
+      font-weight: normal; }
+  .parallax-choose .choose-box {
+    color: #fff;
+    text-align: center; }
+    .parallax-choose .choose-box .box {
+      padding: 2.3rem;
+      text-align: center; }
+      .parallax-choose .choose-box .box h4 {
+        font-size: 2.2rem;
+        font-weight: normal; }
+      .parallax-choose .choose-box .box p {
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 1.8; }
+      .parallax-choose .choose-box .box .img-icon-choose {
+        width: 6rem;
+        height: 6rem;
+        margin: 0 auto; }
+        .parallax-choose .choose-box .box .img-icon-choose img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+  .parallax-choose .button-choose p {
+    text-align: center; }
+    .parallax-choose .button-choose p a {
+      background: none repeat scroll 0 0 #de1982;
+      border-color: #de1982;
+      color: #fff;
+      font-size: 1.7rem;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      font-weight: normal; }
+      .parallax-choose .button-choose p a:hover {
+        background: none repeat scroll 0 0 #b5186e;
+        border-color: #b5186e; }
