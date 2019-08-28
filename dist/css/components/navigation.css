@@ -51,7 +51,8 @@
 .menu-nav {
   position: absolute;
   width: 100%;
-  padding: 1.5rem 0; }
+  padding: 1.5rem 0;
+  background: white; }
   .menu-nav::after {
     content: '';
     background: url("../../dist/assets/images/nav-border.jpg");
@@ -74,6 +75,7 @@
 
 .navsticky {
   transition: all .5s ease;
+  background: white;
   z-index: 1000;
   position: sticky;
   top: 40px; }

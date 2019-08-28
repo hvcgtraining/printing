@@ -1,0 +1,143 @@
+.search-heading {
+  margin-top: 8rem;
+  display: flex;
+  padding: 1.5rem 10.5rem;
+  color: #55595c;
+  background: #F3F3F6;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+  .search-heading .title-page {
+    padding: 0 1.5rem; }
+    .search-heading .title-page h2 {
+      font-weight: 200;
+      font-size: 22px;
+      color: #01A2ED; }
+  .search-heading .search__box {
+    margin: 0 1.5rem;
+    border: 2px solid #DE1982;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden; }
+    .search-heading .search__box a {
+      display: block;
+      height: 45px;
+      width: 45px;
+      position: relative;
+      background: #eeeeee !important;
+      border: none;
+      outline: none;
+      background: none; }
+      .search-heading .search__box a i {
+        font-size: 1.6rem;
+        color: #55595c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .search-heading .search__box .search-text {
+      border: none;
+      outline: none;
+      background: white;
+      width: 500px;
+      padding: 0 1rem; }
+      .search-heading .search__box .search-text ::placeholder {
+        color: #eeeeee;
+        font-size: 13px; }
+
+@media only screen and (min-width: 1400px) {
+  .search-heading {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .map-search {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media only screen and (max-width: 993px) {
+  .search-heading {
+    padding: 1.5rem 1.5rem; }
+    .search-heading .title-page {
+      padding: 0; }
+    .search-heading .search__box {
+      margin: 0; } }
+
+.map-search {
+  display: flex; }
+  .map-search .studio__list {
+    height: 500px;
+    overflow: auto;
+    padding-left: 2rem;
+    width: 40%; }
+    .map-search .studio__list .location__title {
+      color: #01A2ED;
+      padding: 2rem 0 2rem 4rem; }
+    .map-search .studio__list .studio__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #cccccc; }
+      .map-search .studio__list .studio__item .studio__info {
+        width: 90%;
+        display: flex;
+        align-items: center; }
+        .map-search .studio__list .studio__item .studio__info .studio__img {
+          width: 10%; }
+          .map-search .studio__list .studio__item .studio__info .studio__img img {
+            width: 100%;
+            height: auto; }
+        .map-search .studio__list .studio__item .studio__info .studio__hotline {
+          padding: 2rem;
+          font-size: 13px; }
+          .map-search .studio__list .studio__item .studio__info .studio__hotline a {
+            color: #194e90;
+            font-size: 1.6rem;
+            text-decoration: none; }
+            .map-search .studio__list .studio__item .studio__info .studio__hotline a:hover {
+              color: #01A2ED;
+              text-decoration: underline; }
+      .map-search .studio__list .studio__item .studio__detail {
+        width: 200px;
+        display: flex;
+        justify-content: flex-end;
+        position: relative; }
+        .map-search .studio__list .studio__item .studio__detail i {
+          padding-right: 2rem;
+          color: #cccccc; }
+        .map-search .studio__list .studio__item .studio__detail .more__view {
+          position: absolute;
+          top: 0;
+          right: 2rem; }
+          .map-search .studio__list .studio__item .studio__detail .more__view a {
+            display: block;
+            background: #194e90;
+            padding: 1rem .5rem;
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem; }
+            .map-search .studio__list .studio__item .studio__detail .more__view a:hover {
+              background: #01A2ED; }
+  .map-search .studio__map {
+    width: 60%;
+    height: 100%; }
+    .map-search .studio__map img {
+      width: 100%;
+      height: auto; }
+
+@media only screen and (max-width: 1170px) {
+  .map-search {
+    display: flex;
+    flex-wrap: wrap; }
+    .map-search .studio__list {
+      width: 100%; }
+    .map-search .studio__map {
+      width: 100%; } }
+
+@media only screen and (max-width: 767px) {
+  .map-search .studio__list .studio__item .studio__info .studio__img {
+    display: none; } }
