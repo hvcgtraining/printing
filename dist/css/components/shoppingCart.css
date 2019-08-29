@@ -1,0 +1,149 @@
+.basket {
+  background: #d9e0e7;
+  padding: 8rem 1.5rem 0; }
+  .basket a {
+    text-decoration: none; }
+  .basket .basket-checkout-btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    background: #de1982;
+    border: 1px solid #de1982; }
+    .basket .basket-checkout-btn:hover {
+      background: #b4166a; }
+    .basket .basket-checkout-btn i {
+      margin: 0 0.5rem; }
+  .basket .basket-header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .basket .basket-header .header-title {
+      font-size: 3.5rem;
+      font-weight: normal;
+      color: #244078; }
+  .basket .basket-content {
+    background: #fff; }
+    .basket .basket-content .content-header {
+      border-radius: 0.4rem;
+      padding: 1.2rem;
+      background: #244078;
+      color: #fff;
+      font-size: 1.6rem; }
+      .basket .basket-content .content-header .basket-desc {
+        text-align: center; }
+      .basket .basket-content .content-header .basket-total {
+        text-align: right; }
+        .basket .basket-content .content-header .basket-total i {
+          font-size: 2.3rem;
+          margin: 0 0.5rem; }
+    .basket .basket-content .content-body {
+      padding: 1.2rem; }
+      .basket .basket-content .content-body .basket-desc-content {
+        padding: 0 1rem; }
+        .basket .basket-content .content-body .basket-desc-content .product-name {
+          font-size: 1.8rem;
+          color: #707478;
+          font-weight: normal; }
+          .basket .basket-content .content-body .basket-desc-content .product-name i {
+            color: #244078;
+            font-size: 2rem;
+            margin: 0 0.4rem; }
+        .basket .basket-content .content-body .basket-desc-content .prod-desc a {
+          font-size: 1.2rem;
+          color: #194e90; }
+        .basket .basket-content .content-body .basket-desc-content .prod-desc p {
+          color: #707478;
+          font-size: 1.2rem;
+          margin: 0.5rem 0; }
+        .basket .basket-content .content-body .basket-desc-content .prod-desc .update-title {
+          font-size: 1.6rem;
+          color: #f59c1a; }
+        .basket .basket-content .content-body .basket-desc-content .prod-desc .reference-title {
+          font-size: 1.6rem; }
+      .basket .basket-content .content-body .basket-total-content {
+        padding: 1.2rem; }
+      .basket .basket-content .content-body .basket-delivery-content p {
+        font-size: 1.3rem; }
+      .basket .basket-content .content-body .basket-delivery-content select {
+        width: 100%; }
+      .basket .basket-content .content-body select {
+        padding: 0.5rem 1rem;
+        color: #555;
+        border: 1px solid #bec0c4;
+        border-radius: 0.5rem; }
+      .basket .basket-content .content-body .basket-total-content {
+        text-align: right; }
+    .basket .basket-content .btn-artwork {
+      background: #f59c1a;
+      border: 1px solid #f59c1a;
+      color: #fff;
+      font-size: 1.7rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      display: inline-block; }
+      .basket .basket-content .btn-artwork:hover {
+        background: #ce871d; }
+    .basket .basket-content .text-center {
+      text-align: center; }
+  .basket .basket-checkout .basket-checkout-inner {
+    background: #fff; }
+    .basket .basket-checkout .basket-checkout-inner form {
+      padding: 1.5rem; }
+    .basket .basket-checkout .basket-checkout-inner label {
+      font-size: 1.5rem;
+      color: #707478;
+      margin-bottom: 0.5rem; }
+    .basket .basket-checkout .basket-checkout-inner .basket-coupon input[type="text"] {
+      padding: 0.4rem 1.2rem;
+      border: 1px solid #ccc;
+      font-size: 1.4rem; }
+    .basket .basket-checkout .basket-checkout-inner .basket-coupon input[type="submit"] {
+      background: #ddd;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      margin-left: 0.5rem;
+      border: 1px solid transparent; }
+    .basket .basket-checkout .basket-checkout-inner .checkout-total {
+      padding: 1.5rem;
+      font-size: 1.6rem;
+      background: #244078;
+      color: #fff; }
+      .basket .basket-checkout .basket-checkout-inner .checkout-total .total {
+        display: flex;
+        justify-content: space-between; }
+  .basket .ml-auto {
+    margin-left: auto; }
+  .basket .basket-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0; }
+    .basket .basket-bottom .basket-back-btn {
+      background: #fff;
+      padding: 0.6rem 1.2rem;
+      color: #194e90;
+      font-size: 1.7rem;
+      border-radius: 0.4rem;
+      margin: 0.5rem 0; }
+      .basket .basket-bottom .basket-back-btn:hover {
+        background: #ccc; }
+      .basket .basket-bottom .basket-back-btn i {
+        margin: 0 0.5rem; }
+
+@media (max-width: 992px) {
+  .basket-header .basket-checkout-btn {
+    display: none; }
+  .content-header {
+    display: none; }
+  .basket-preview,
+  .basket-checkout-inner,
+  .basket-desc-content,
+  .basket-quantity-content,
+  .basket-delivery-content,
+  .basket-total-content {
+    display: block;
+    width: 100%; } }

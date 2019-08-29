@@ -1,0 +1,72 @@
+.supply {
+  background: #f1f2f7; }
+  .supply .title_header_supply {
+    padding-top: 9rem;
+    background: #e9e9f0; }
+    .supply .title_header_supply form {
+      text-align: center; }
+      .supply .title_header_supply form .ui-autocomplete-input {
+        display: inline;
+        line-height: 1.3em;
+        opacity: 0.8;
+        color: #aaa; }
+      .supply .title_header_supply form input {
+        padding: 8px;
+        vertical-align: middle;
+        opacity: 0.5; }
+    .supply .title_header_supply .title_bar {
+      padding-left: 2rem; }
+      .supply .title_header_supply .title_bar .info {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap; }
+        .supply .title_header_supply .title_bar .info .info-img {
+          width: 9rem; }
+          .supply .title_header_supply .title_bar .info .info-img img {
+            border-radius: 50%; }
+        .supply .title_header_supply .title_bar .info .info-text {
+          font-size: 1.5rem;
+          text-align: left;
+          width: 70%; }
+          .supply .title_header_supply .title_bar .info .info-text .ig {
+            color: black; }
+          .supply .title_header_supply .title_bar .info .info-text a {
+            text-decoration: none;
+            color: #55595C;
+            padding-bottom: 0.2rem;
+            font-size: 1.5rem; }
+            .supply .title_header_supply .title_bar .info .info-text a:hover {
+              text-decoration: underline; }
+
+.contain {
+  padding-top: 2rem; }
+  .contain .detail {
+    background: #e9e9f0;
+    padding: 3rem; }
+  .contain h3 {
+    color: #01A2ED;
+    font-weight: 400; }
+    .contain h3 a {
+      text-decoration: none; }
+      .contain h3 a:hover {
+        text-decoration: underline; }
+  .contain .block-containt {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+    .contain .block-containt .block-icon {
+      width: 9rem;
+      font-size: 8rem;
+      color: #f1f2f7; }
+    .contain .block-containt .block-text {
+      width: 70%;
+      padding-top: 1rem; }
+      .contain .block-containt .block-text h3 {
+        color: #194e90; }
+      .contain .block-containt .block-text a {
+        font-size: 1.2rem;
+        color: #55595C;
+        text-decoration: none; }
+    .contain .block-containt:hover {
+      background: #f1f2f7;
+      border-radius: 2rem; }

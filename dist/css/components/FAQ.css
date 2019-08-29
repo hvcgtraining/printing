@@ -1,0 +1,41 @@
+.faq {
+  padding-top: 7rem;
+  background: #f3f3f6; }
+  .faq .faq-title {
+    color: #01a2ed;
+    background: #e9e9f0;
+    padding: 2.5rem 0;
+    margin-bottom: 4rem; }
+    .faq .faq-title h2 {
+      padding: 0 1.5rem;
+      font-weight: normal;
+      font-size: 3.5rem; }
+  .faq .faq-content .content-title {
+    color: #01a2ed;
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem; }
+  .faq .faq-content .faq-accordion .accordion-item {
+    margin-top: 1rem;
+    border: 1px solid #244078;
+    border-radius: 0.7rem; }
+    .faq .faq-content .faq-accordion .accordion-item label {
+      font-size: 1.6rem;
+      padding: 1rem 2rem;
+      color: #194e90;
+      display: block; }
+    .faq .faq-content .faq-accordion .accordion-item .accordion-content {
+      padding: 1.5rem 2rem;
+      background: #fbfbfa;
+      display: none; }
+      .faq .faq-content .faq-accordion .accordion-item .accordion-content .accordion-content-item h4 {
+        font-size: 1.8rem;
+        color: #01a2ed;
+        font-weight: normal; }
+  .faq p {
+    font-size: 1.6rem;
+    color: #55595c;
+    margin: 1.4rem 0 2rem; }
+  .faq .show-accordion {
+    display: block !important;
+    background: #fbfbfa !important; }

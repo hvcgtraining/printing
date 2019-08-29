@@ -1,0 +1,27 @@
+.payment {
+  padding-top: 7rem; }
+  .payment .payment-col {
+    padding: 0 1.5rem; }
+  .payment .payment-img {
+    margin: 1.4rem 0 2rem 0; }
+
+.payment-title {
+  color: #01a2ed;
+  background: #e9e9f0;
+  padding: 2.5rem 0;
+  margin-bottom: 4rem; }
+  .payment-title h2 {
+    padding: 0 1.5rem;
+    font-weight: normal;
+    font-size: 3.5rem; }
+
+.payment-question {
+  color: #01a2ed;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: normal; }
+
+.payment-answer {
+  color: #55595c;
+  font-size: 1.6rem;
+  margin: 1.4rem 0; }

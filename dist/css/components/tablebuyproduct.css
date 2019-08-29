@@ -1,0 +1,127 @@
+.tab-buy-product {
+  padding: 1.5rem; }
+  .tab-buy-product .ul-tab {
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid grey;
+    font-size: 1.4rem; }
+    .tab-buy-product .ul-tab li {
+      list-style: none;
+      padding: 1rem 2rem;
+      margin-right: 5px;
+      margin-top: 5px; }
+      .tab-buy-product .ul-tab li.active {
+        border-bottom: 3px solid #244078 !important; }
+        .tab-buy-product .ul-tab li.active a {
+          color: #2E363F; }
+      .tab-buy-product .ul-tab li a {
+        color: #194e90;
+        text-decoration: none; }
+        .tab-buy-product .ul-tab li a i {
+          padding-right: 1rem; }
+
+.tab-content {
+  padding: 20px; }
+
+.px-3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+.tab-item {
+  display: none; }
+
+.tab_prices .top-content {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 3rem 0; }
+  .tab_prices .top-content h6 {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600; }
+
+.tab_prices .pricesTable {
+  margin: 3rem 0;
+  font-size: 1.6rem; }
+  .tab_prices .pricesTable .box {
+    align-items: center; }
+    .tab_prices .pricesTable .box label {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center; }
+    .tab_prices .pricesTable .box #more-quantities {
+      padding: 5px 10px;
+      width: 140px;
+      font-size: 1.2rem;
+      height: 30px;
+      border-radius: 5px;
+      border: 2px solid #e5e7e9;
+      outline: none; }
+  .tab_prices .pricesTable button {
+    border: none;
+    padding: 8px 18px;
+    border: rgba(255, 255, 255, 0) 2px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem 0;
+    transition: all .3s ease; }
+    .tab_prices .pricesTable button i {
+      position: absolute;
+      right: 35px;
+      top: 50%;
+      transform: translateY(-50%); }
+    .tab_prices .pricesTable button:focus {
+      outline: none; }
+  .tab_prices .pricesTable .quantity {
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  .tab_prices .pricesTable .standby span {
+    font-weight: 500;
+    color: #333; }
+  .tab_prices .pricesTable .standby button {
+    color: #194e90;
+    background: white; }
+    .tab_prices .pricesTable .standby button:hover, .tab_prices .pricesTable .standby button:focus {
+      color: #01A2ED; }
+  .tab_prices .pricesTable .normal span {
+    color: #194e90;
+    font-weight: 500; }
+  .tab_prices .pricesTable .normal button {
+    color: #fff;
+    background: none repeat scroll 0 0 #194e90;
+    border-color: #194e90; }
+    .tab_prices .pricesTable .normal button:hover, .tab_prices .pricesTable .normal button:focus {
+      background: none repeat scroll 0 0 #01A2ED;
+      border-color: #01A2ED; }
+  .tab_prices .pricesTable .xpress span {
+    color: #de1982;
+    font-weight: 500; }
+  .tab_prices .pricesTable .xpress button {
+    padding-left: 25px;
+    color: white;
+    background: none repeat scroll 0 0 #de1982;
+    border-color: #de1982; }
+    .tab_prices .pricesTable .xpress button:hover, .tab_prices .pricesTable .xpress button:focus {
+      background: none repeat scroll 0 0 #b5186e;
+      border-color: #b5186e; }
+
+.show-prices {
+  display: none; }
+
+.text-center {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .show-prices {
+    display: block !important; }
+  .hidden-cs {
+    display: none !important; }
+  .quantity {
+    text-align: center !important; } }
